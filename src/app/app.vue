@@ -22,10 +22,12 @@
       <!--其它按钮isSelect:false-->
       <mt-tabbar v-model="active" fixed>
         <mt-tab-item id="tab1" @click.native="changeState(0)">
-         <tabbaricon
+         <!-- <tabbaricon
           :selectedImage="require('../assets/icon/iconfont-index-active.png')"
           :normalImage="require('../assets/icon/iconfont-index.png')"
-          :focused="currentIndex[0].isSelect">
+          :focused="currentIndex[0].isSelect"> -->
+         <tabbaricon>
+          <img  src="../assets/icon/iconfont-index-active.png">
          </tabbaricon>
          专题   
         </mt-tab-item>
@@ -60,6 +62,7 @@
 </template>
 
 <script>
+// import 
 export default {
   data(){
     return{
