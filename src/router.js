@@ -3,11 +3,14 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 //引入自定义组件app
 import app from "./app/app.vue"
+// 引入自定义组件me
+import me from "./app/me.vue"
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
+    {path:"/me",component:me},
     {path:"/app",component:app},
     {
       

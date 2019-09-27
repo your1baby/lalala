@@ -11,7 +11,8 @@
         逛
         </mt-tab-container-item>
       <mt-tab-container-item id="tab4">
-        我的
+       <!-- 引入 '我的' 子组件 -->
+        <me></me>
         </mt-tab-container-item>
       </mt-tab-container>
         
@@ -32,27 +33,27 @@
          专题   
         </mt-tab-item>
         <mt-tab-item id="tab2" @click.native="changeState(1)">
-         <tabbaricon
+         <!-- <tabbaricon
          :selectedImage="require('../assets/icon/iconfont-index-active.png')"
           :normalImage="require('../assets/icon/iconfont-index.png')"
-         :focused="currentIndex[1].isSelect">
-         </tabbaricon>
+         :focused="currentIndex[1].isSelect"> -->
+         <!-- </tabbaricon> -->
          设计师
         </mt-tab-item>
         <mt-tab-item id="tab3" @click.native="changeState(2)">
-          <tabbaricon
+          <!-- <tabbaricon
           :selectedImage="require('../assets/icon/iconfont-index-active.png')"
           :normalImage="require('../assets/icon/iconfont-index.png')"
           :focused="currentIndex[2].isSelect">
-          </tabbaricon>
+          </tabbaricon> -->
           逛
         </mt-tab-item>
         <mt-tab-item id="tab4" @click.native="changeState(3)">
-          <tabbaricon
+          <!-- <tabbaricon
            :selectedImage="require('../assets/icon/iconfont-index-active.png')"
           :normalImage="require('../assets/icon/iconfont-index.png')"
            :focused="currentIndex[3].isSelect"
-          ></tabbaricon>
+          ></tabbaricon> -->
           我的
         </mt-tab-item>
       </mt-tabbar>
@@ -63,6 +64,8 @@
 
 <script>
 // import 
+//负责引入Me子组件
+import  Me from "./me"
 export default {
   data(){
     return{
@@ -102,10 +105,20 @@ export default {
     // "titlebar":TitleBar,
     // "messagelist":MessageList,
     // "tabbaricon":TabBarIcon
-  }
+    "me":Me
+  },
 }
 </script>
 
 <style scoped>
-  
+   /* 覆盖原组件中的样式tabbar按钮中文字颜色 */
+/* (1)默认文字颜色 */
+.mint-tabbar > .mint-tab-item{
+  color: #999;
+}
+/* (2)选中文字颜色 */
+.mint-tabbar > .mint-tab-item.is-selected {
+    background-color: transparent;/*背景透明*/
+    color: #45c018;/*文字颜色*/
+}
 </style>
