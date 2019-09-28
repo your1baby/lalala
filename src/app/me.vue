@@ -19,7 +19,7 @@
           <div>
             <mt-cell
               title="订单"
-              to="//"
+              to="//localhost:8080/#/dingdan"
               is-link
               value="0">
             </mt-cell>
@@ -27,8 +27,17 @@
 
           <div>
             <mt-cell
+              title="我的购物车"
+              to="//localhost:8080/#/cart"
+              is-link
+              value="">
+            </mt-cell>
+          </div>
+
+          <div>
+            <mt-cell
               title="我的优惠券"
-              to="//github.com"
+              to="//localhost:8080/#/cart"
               is-link
               value="">
             </mt-cell>

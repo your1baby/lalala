@@ -5,12 +5,17 @@ import Home from './views/Home.vue'
 import app from "./app/app.vue"
 // 引入自定义组件me
 import me from "./app/me.vue"
+// 我的-订单
 import dingdan from "./app/meinfo/dingdan.vue"
+// 我的-购物车
+import cart from "./app/meinfo/cart.vue"
+
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
+    {path:"/cart",component:cart},
     {path:"/dingdan",component:dingdan},
     {path:"/me",component:me},
     {path:"/app",component:app},
