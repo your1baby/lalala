@@ -5,18 +5,20 @@ import Home from './views/Home.vue'
 import app from "./app/app.vue"
 // 引入自定义组件me
 import me from "./app/me.vue"
+import dingdan from "./app/meinfo/dingdan.vue"
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
+    {path:"/dingdan",component:dingdan},
     {path:"/me",component:me},
     {path:"/app",component:app},
     {
       
       path: '/',
-      name: 'home',
-      component: Home
+      name: 'app',
+      component: app
     },
     {
       path: '/about',

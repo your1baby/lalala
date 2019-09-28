@@ -19,7 +19,7 @@
           <div>
             <mt-cell
               title="订单"
-              to="//github.com"
+              to="//"
               is-link
               value="0">
             </mt-cell>
@@ -95,7 +95,9 @@
 <script>
 export default {
   data(){
-    return{}
+    return{
+      
+    }
   },
 }
 </script>

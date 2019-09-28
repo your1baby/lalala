@@ -27,9 +27,9 @@
           :selectedImage="require('../assets/icon/iconfont-index-active.png')"
           :normalImage="require('../assets/icon/iconfont-index.png')"
           :focused="currentIndex[0].isSelect"> -->
-         <tabbaricon>
+         <!-- <tabbaricon>
           <img  src="../assets/icon/iconfont-index-active.png">
-         </tabbaricon>
+         </tabbaricon> -->
          专题   
         </mt-tab-item>
         <mt-tab-item id="tab2" @click.native="changeState(1)">
