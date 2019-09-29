@@ -13,6 +13,7 @@
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background: f0f0f0; */
   /* text-align: center;
   color: #2c3e50; */
 }

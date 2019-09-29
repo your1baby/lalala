@@ -84,7 +84,7 @@ export default {
   /* 顶部导航栏重写样式 */
   .mint-header{
     background-color:#212121!important; 
-    font-size: 16px !important;
+    font-size: 18px !important;
     height: 52px !important;
   }
   .mint-navbar{

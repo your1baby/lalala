@@ -65,7 +65,7 @@
 <script>
 // import 
 //负责引入Me子组件 
-import  Me from "./me"
+import  Me from "./mes"
 export default {
   data(){
     return{
@@ -111,6 +111,7 @@ export default {
 </script>
 
 <style scoped>
+
    /* 覆盖原组件中的样式tabbar按钮中文字颜色 */
 /* (1)默认文字颜色 */
 .mint-tabbar > .mint-tab-item{
@@ -120,5 +121,11 @@ export default {
 .mint-tabbar > .mint-tab-item.is-selected {
     background-color: transparent;/*背景透明*/
     color: #45c018;/*文字颜色*/
+}
+.mint-tab-container-item {
+    position: fixed !important;
+    background: #f0f0f0 !important;
+    height: 100% !important;
+    width: 100% !important;
 }
 </style>
