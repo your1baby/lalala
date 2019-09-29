@@ -85,7 +85,36 @@
             
             
         </div>
-         
+         <div class="message-wrap message-wrap2">
+          <div>
+            <mt-cell
+              title="客服/意见反馈"
+              to="//github.com"
+              is-link
+              value="">
+            </mt-cell>
+          </div>
+
+          <div>
+            <mt-cell
+              title="绑定已有的想去账号"
+              to="//github.com"
+              is-link
+              value="">
+            </mt-cell>
+          </div>
+
+          <div>
+            <mt-cell
+              title="下载想去App"
+              to="//github.com"
+              is-link
+              value="">
+            </mt-cell>
+          </div>
+            
+            
+        </div>
          <!-- 微信二维码 -->
          <div class="ma">
             <img src="../assets/me/weixin.png" alt="">

@@ -83,7 +83,7 @@ export default {
   }
   /* 顶部导航栏重写样式 */
   .mint-header{
-    background-color:#24242b !important; 
+    background-color:#212121!important; 
     font-size: 16px !important;
     height: 52px !important;
   }
@@ -92,8 +92,8 @@ export default {
   }
   /* 顶部navbar选中样式重写 */
  .mint-navbar .mint-tab-item.is-selected {
-    border-bottom: 3px solid #dda118 !important;
-    color: #dda118 !important;
+    border-bottom: 3px solid #CE9E20 !important;
+    color: #CE9E20 !important;
     margin-bottom: 5px;
 }
 .nodd{
