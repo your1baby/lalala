@@ -10,12 +10,16 @@ import mes from "./app/mes.vue"
 import dingdan from "./app/meinfo/dingdan.vue"
 // 我的-购物车
 import cart from "./app/meinfo/cart.vue"
+// 我的-优惠券
+import yhj from "./app/meinfo/yhj.vue"
+
 
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
+    {path:"/yhj",component:yhj},
     {path:"/cart",component:cart},
     {path:"/dingdan",component:dingdan},
     {path:"/mes",component:mes},

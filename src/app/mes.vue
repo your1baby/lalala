@@ -51,7 +51,7 @@
         <li class="border-r0">
           <img src="../assets/me/yhj.png" alt="">
           <p>
-          <router-link to="/cart">我的优惠卷</router-link>
+          <router-link to="/yhj">我的优惠卷</router-link>
           </p>
         </li>
       </ul>
