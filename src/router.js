@@ -12,6 +12,9 @@ import dingdan from "./app/meinfo/dingdan.vue"
 import cart from "./app/meinfo/cart.vue"
 // 我的-优惠券
 import yhj from "./app/meinfo/yhj.vue"
+// 逛 页面组件
+import guang from "./app/guang.vue"
+
 
 
 
@@ -19,6 +22,7 @@ Vue.use(Router)
 
 export default new Router({
   routes: [
+    {path:"/guang",component:guang},
     {path:"/yhj",component:yhj},
     {path:"/cart",component:cart},
     {path:"/dingdan",component:dingdan},

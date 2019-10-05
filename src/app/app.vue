@@ -8,7 +8,7 @@
         设计师
         </mt-tab-container-item>
       <mt-tab-container-item id="tab3">
-        逛
+        <guang></guang>
         </mt-tab-container-item>
       <mt-tab-container-item id="tab4">
        <!-- 引入 '我的' 子组件 -->
@@ -66,6 +66,7 @@
 // import 
 //负责引入Me子组件 
 import  Me from "./mes"
+import  guang from "./guang"
 export default {
   data(){
     return{
@@ -105,7 +106,8 @@ export default {
     // "titlebar":TitleBar,
     // "messagelist":MessageList,
     // "tabbaricon":TabBarIcon
-    "me":Me
+    "me":Me,
+    "guang":guang
   },
 }
 </script>
