@@ -46,6 +46,9 @@
              </li>
          </ul>
        </div>
+
+       <!--文艺女装 -->
+       
         
     </div>
 </template>
@@ -82,25 +85,24 @@ export default {
     margin-top:10px;
 }
 /* 顶部分类 */
-   .topbar-info{
+   .topbar{
        background: #fff;
+       padding: 5px 10px 5px 10px;
    }
     .topbar-info{
         width: 100%;
         display: flex;
         justify-content: space-around;
+        margin-bottom: 15px;
     }
-    .topbar-info ul{
-        
-        margin-bottom: 10px;
-    }
+   
     .topbar-info li{
         width:25%;
         text-align: center;
     }
     .topbar-info li img{
-        width: 25px;
-        height: 25px;
+        width: 30px;
+        /* height: 25px; */
     }
 
 </style>
