@@ -14,6 +14,9 @@ import cart from "./app/meinfo/cart.vue"
 import yhj from "./app/meinfo/yhj.vue"
 // 逛 页面组件
 import guang from "./app/guang.vue"
+// 设计师页面
+import sjs from "./app/sjs.vue"
+
 
 
 
@@ -22,6 +25,7 @@ Vue.use(Router)
 
 export default new Router({
   routes: [
+    {path:"/sjs",component:sjs},
     {path:"/guang",component:guang},
     {path:"/yhj",component:yhj},
     {path:"/cart",component:cart},

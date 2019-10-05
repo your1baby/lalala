@@ -5,9 +5,11 @@
         专题
       </mt-tab-container-item>
       <mt-tab-container-item id="tab2">
-        设计师
+       <!-- 引入 '设计师' 子组件 -->
+        <sjs></sjs>
         </mt-tab-container-item>
       <mt-tab-container-item id="tab3">
+       <!-- 引入 '逛' 子组件 -->
         <guang></guang>
         </mt-tab-container-item>
       <mt-tab-container-item id="tab4">
@@ -67,6 +69,7 @@
 //负责引入Me子组件 
 import  Me from "./mes"
 import  guang from "./guang"
+import  sjs from "./sjs"
 export default {
   data(){
     return{
@@ -107,7 +110,8 @@ export default {
     // "messagelist":MessageList,
     // "tabbaricon":TabBarIcon
     "me":Me,
-    "guang":guang
+    "guang":guang,
+    "sjs":sjs,
   },
 }
 </script>
