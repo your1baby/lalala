@@ -12,14 +12,52 @@
          <mt-tab-container v-model="selected">
 
           <mt-tab-container-item id="1">
-             <div class="">  
-               <img src="" alt="">
+             <div class="hangye">  
+                <ul class="img-list">
+                  <li class="">
+                      <img src="../assets/sjs/1.jpg" 
+                       style="padding-right:4px"
+                      alt="">
+                      <img src="../assets/sjs/2.jpg" alt="">
+                </li>
+                  <li>
+                      <img src="../assets/sjs/3.jpg"  
+                      style="padding-right:4px"  
+                      alt="">
+                      <img src="../assets/sjs/4.jpg" alt="">
+                </li>
+                  <li>
+                      <img src="../assets/sjs/5.jpg" 
+                      style="padding-right:4px" 
+                       alt="">
+                      <img src="../assets/sjs/6.jpg" alt="">
+                </li>
+              </ul>
              </div>
           </mt-tab-container-item>
 
           <mt-tab-container-item id="2">
-            <div class="">  
-               <img src="" alt="">
+            <div class="fenge">  
+                 <ul class="img-list">
+                  <li class="">
+                      <img src="../assets/sjs/01.jpg" 
+                       style="padding-right:2px"
+                      alt="">
+                      <img src="../assets/sjs/02.jpg" alt="">
+                </li>
+                  <li>
+                      <img src="../assets/sjs/03.jpg"  
+                      style="padding-right:4px"  
+                      alt="">
+                      <img src="../assets/sjs/04.jpg" alt="">
+                </li>
+                  <li>
+                      <img src="../assets/sjs/05.jpg" 
+                      style="padding-right:4px" 
+                       alt="">
+                      <img src="../assets/sjs/06.jpg" alt="">
+                </li>
+              </ul>
              </div>
           </mt-tab-container-item>
 
@@ -47,4 +85,16 @@ export default {
     color: #CE9E20 !important;
     margin-bottom: 5px;
 }
+  .img-list {
+     width: 100%;
+ }
+  .img-list li{
+     width: 100%;
+     box-sizing: border-box;
+ }
+  .img-list li img{
+     width: 49%;
+     margin-bottom: 5px;
+
+ }
 </style>
